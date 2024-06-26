@@ -12,8 +12,8 @@ pipeline {
 
                     // Ensure the deployment directory exists
                     sh """
-                        sudo mkdir -p ${deployDir}
-                        sudo cp -r * ${deployDir}
+                         mkdir -p ${deployDir}
+                         cp -r * ${deployDir}
                     """
                 }
             }
